@@ -2,7 +2,7 @@ name: Check code
 
 #when to run
 on:
-  push:
+  pull_request:
     branches:
       - main
 
